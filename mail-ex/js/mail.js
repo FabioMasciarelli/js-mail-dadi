@@ -9,7 +9,7 @@ btnElem.addEventListener("click", function () {
     
     let flag = false;
     let outputmessage = "";
-    const mailElem = document.querySelector("#inputmail").value;
+    const mailElem = document.querySelector("#input-mail").value;
     const outputCard = document.querySelector(".output-card");
 
     for (let i = 0; i < acceptedMail.length; i++) {

@@ -3,3 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    padding: 50px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-input {
+    padding: 10px 20px;
+    border: 0;
+    background-color: blue;
+    color: white;
+    border-radius: 20px;
+}
+
+#input-mail {
+    border: 0 solid blue;
+    padding: 10px;
+}
+
+.output-card {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
