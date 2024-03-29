@@ -3,24 +3,30 @@ const btnElem = document.querySelector(".btn-input");
 
 const acceptedMail = ["pippo@gmail.com", "pluto@gmail.com", "bobby@gmail.com"];
 
-let flag = false;
-let outputmessage = "";
 
 
 btnElem.addEventListener("click", function () {
+    
+    let flag = false;
+    let outputmessage = "";
     const mailElem = document.querySelector("#inputmail").value;
+    const outputCard = document.querySelector(".output-card");
 
-    for (let i = 0; i = acceptedMail.length && flag == true; i++) {
-
+    for (let i = 0; i < acceptedMail.length; i++) {
         if (acceptedMail[i] === mailElem) {
+            console.log("acceptedMail");
             flag = true;
-            outputmessage = `Accesso Effettuato`;
-            console.log(outputmessage);
-        }else {
-            outputmessage = `Accesso Negato`;
+            break;
         }
     }
+    
+    if (flag == true) {
+        outputmessage = `Accesso Consentito`;
+        outputCard.innerHTML = outputmessage;
 
-    const outputCard = document.querySelector(".output-card");
-    outputCard.innerHTML = outputmessage;
+    } else {
+        outputmessage = `Accesso Negato`;
+        outputCard.innerHTML = outputmessage;
+    }
+
 });
