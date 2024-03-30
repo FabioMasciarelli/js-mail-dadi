@@ -13,3 +13,12 @@ stampa un messaggio appropriato sull’esito del controllo.
 <!-- DADI -->
 Generare un numero random da 1 a 6, sia per il giocatore sia per il computer.
 Stabilire il vincitore, in base a chi fa il punteggio più alto.
+
+1. stabilire una costante per il giocatore e una per il computer
+2. generare un numero random per le variabile di entrambi
+3. se il numero dell'user è maggiore di quello del giocatore
+ - stampa: hai vinto;
+ se il numero dell'user è uguale a quello del computer
+ - stampa: pareggio;
+Altrimenti 
+ - stampa: hai perso;
