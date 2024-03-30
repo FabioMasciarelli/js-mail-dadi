@@ -11,7 +11,7 @@ btnInput.addEventListener("click", function () {
     if (userNumber > computerNumber) {
         outputMessage = `<div class="win">You Win!</div>`;
     } else if (userNumber === computerNumber) {
-        outputMessage = `Tie!`;
+        outputMessage = `<div class="tie">Tie, try Again!</div>`;
     } else {
         outputMessage = `<div class="lose">You Lose!</div>`;
     }

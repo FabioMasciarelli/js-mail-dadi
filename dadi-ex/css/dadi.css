@@ -45,6 +45,13 @@ button {
     border-radius: 5px;
 }
 
+.tie {
+    padding: 10px;
+    background-color: cadetblue;
+    color: white;
+    border-radius: 5px;
+}
+
 .lose {
     color: red;
     border: 2px solid red;
