@@ -11,13 +11,18 @@ body {
     gap: 20px;
     align-items: center;
     justify-content: center;
+    background-image: linear-gradient(to bottom left, #000066, #720267, #df0d51, #feea05)
+}
+
+h2 {
+    color: white;
 }
 
 button {
     border: 0;
     border-radius: 20px;
     padding: 10px;
-    background-color: cadetblue;
+    background-color: #000066;
     color: white;
 }
 
@@ -39,22 +44,22 @@ button {
 }
 
 .win {
-    color: cadetblue;
-    border: 2px solid cadetblue;
+    color: #feea05;
+    border: 2px solid #feea05;
     padding: 10px;
     border-radius: 5px;
 }
 
 .tie {
     padding: 10px;
-    background-color: cadetblue;
+    background-color: #000066;
     color: white;
     border-radius: 5px;
 }
 
 .lose {
-    color: red;
-    border: 2px solid red;
+    color: #720267;
+    border: 2px solid #720267;
     padding: 10px;
     border-radius: 5px;
 }
