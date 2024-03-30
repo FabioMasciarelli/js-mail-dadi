@@ -9,15 +9,19 @@ btnInput.addEventListener("click", function () {
     computerNumber = Math.floor(Math.random () * 6);
 
     if (userNumber > computerNumber) {
-        outputMessage = `You Win!`;
+        outputMessage = `<div class="win">You Win!</div>`;
     } else if (userNumber === computerNumber) {
         outputMessage = `Tie!`;
     } else {
-        outputMessage = `You Lose!`;
+        outputMessage = `<div class="lose">You Lose!</div>`;
     }
     
-    const result = document.querySelector(".result");
+    const result = document.querySelector(".esito");
     result.innerHTML = outputMessage;
 
+    const user = document.querySelector(".user-number");
+    user.innerHTML = `Your number is: ${userNumber}`;
 
+    const computer = document.querySelector(".computer-number");
+    computer.innerHTML = `Computer's number is: ${computerNumber}`; 
 });
