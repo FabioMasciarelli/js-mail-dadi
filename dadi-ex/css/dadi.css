@@ -32,9 +32,9 @@ body {
 
 button {
     border: 0;
-    border-radius: 20px;
-    padding: 10px;
-    background-color: #000066;
+    border-radius: 30px;
+    padding: 20px;
+    background-color: lightblue;
     color: white;
 }
 
@@ -64,14 +64,14 @@ button {
 
 .tie {
     padding: 10px;
-    background-color: #000066;
+    background-color: #046ee5;
     color: white;
     border-radius: 5px;
 }
 
 .lose {
-    color: #720267;
-    border: 2px solid #720267;
+    color: #e43250;
+    border: 2px solid #e43250;
     padding: 10px;
     border-radius: 5px;
 }

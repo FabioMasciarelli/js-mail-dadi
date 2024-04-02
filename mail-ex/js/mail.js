@@ -16,7 +16,6 @@ btnElem.addEventListener("click", function () {
         if (acceptedMail[i] === mailElem) {
             console.log("acceptedMail");
             flag = true;
-            break;
         }
     }
     

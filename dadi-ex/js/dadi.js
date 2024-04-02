@@ -5,8 +5,8 @@ btnInput.addEventListener("click", function () {
     let computerNumber = 0;
     outputMessage = "";
 
-    userNumber = Math.floor(Math.random () * 6);
-    computerNumber = Math.floor(Math.random () * 6);
+    userNumber = Math.floor(Math.random () * 6) +1;
+    computerNumber = Math.floor(Math.random () * 6) +1;
 
     if (userNumber > computerNumber) {
         outputMessage = `<div class="win">You Win!</div>`;
